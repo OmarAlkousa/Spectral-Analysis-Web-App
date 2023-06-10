@@ -15,6 +15,8 @@ You can choose if you want to normalize the y-axis by the number of samples and/
 #### Note:
 Make sure to specify the exact sampling rate of the signal, otherwise you might end up with the wrong frequency resolution (or even worse...👻 **Aliasing** 👻).
 
+https://github.com/OmarAlkousa/Spectral-Analysis-Web-App/assets/64659365/f635358f-590a-4e71-9f53-ec154a312ac4
+
 The code is divided into 10 pyhton files. It could've been combined into 1 file but it's easier to edit and review this way.
 
 The 10 python files are:
