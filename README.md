@@ -12,7 +12,8 @@ As for the windowing implementation to calculate the periodogram and the power s
 
 You can choose if you want to normalize the y-axis by the number of samples and/or the maximum amplitude in the frequency domain. Also, a dB (Decibel) scale of the spectrum is provided.
 
-
+#### Note:
+Make sure to specify the exact sampling rate of the signal, otherwise you might end up with the wrong frequency resolution (or even worse...👻 **Aliasing** 👻).
 
 The code is divided into 10 pyhton files. It could've been combined into 1 file but it's easier to edit and review this way.
 
