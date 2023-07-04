@@ -42,7 +42,7 @@ if uploaded_file is not None:
     # Caching the data for faster implementation
     @st.cache_data
     def load_signal():
-        sig = np.loadtxt(uploaded_file.name)
+        sig = np.loadtxt(uploaded_file.name, delimiter=',')
         return sig
 
     # Load the Data
